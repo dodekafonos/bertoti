@@ -1,0 +1,8 @@
+- [Jakob's Ten Usability Heuristics](https://media.nngroup.com/media/articles/attachments/Heuristic_Summary1_A4_compressed.pdf)
+
+- "We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play.   On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth."
+
+Podemos concluir com esta passagem que *Engenharia de Software* é a forma "empresarial-corporativa" de *programação* (entendido como o ato de construir projetos à partir de linguagens de programação, porém de maneira menos estruturada). 
+Ela descreva a forma com que produtos de software são criados dentro de organizações que precisam se preocupar com tempo, demanda, escalabilidade, levando todos estes pontos em consideração para pesar os prós e contras de cada decisão. Como estas decisões irão afetar mais pessoas, precisam também ser tomadas com mais cuidado lembrando da magnitude de suas consequências.
+
+Assim, Engenharia de Software também é programação, porém programação não é necessariamente Engenharia de Software.
