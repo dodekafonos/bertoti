@@ -16,8 +16,18 @@ Referências: Titus Winters. [**What Is Software Engineering?**](https://abseil.
 
 - O que é Engenharia de Software?
   
-- O que são requisitos?    
+- O que são requisitos?
+*requisitos* são elementos necessários ao sistema/aplicação/produto de software que está sendo construído para que este atenda às necessidades dos clientes ou usuários.
   
   - 2.1 O que são requisitos funcionais?
-    
+    Dentre os requisitos citados acima, os funcionais são aqueles indispensáveis ao funcionamento do produto. Se pensarmos em um software como o Telegram, enviar e receber mensagens são requisitos funcionais.
+
   - 2.2 O que são requisitos não-funcionais?
+    São elementos que não se referem diretamente às funcionalidades do software, porém podem ser decisivos para seu bom funcionamento e para uma melhor experiência do usuário. Em geral estes requisitos se referem ao desempenho, usabilidade, confiabilidade, segurança, disponibilidade, manutenção e tecnologias envolvidas.
+    No exemplo anterior podemos apontar como requisitos não funcionais: a rapidez na inicialização do aplicativo e no envio de mensagens; ter uma interface intuitiva e customizável; 
+
+- Escreva dois exemplos de *trade-offs* envolvendo requisitos não funcionais.
+
+1. A escolha entre memória e velocidade: uma maneira comum de tornar diversas operações e programas mais rápidos é temporariamente armazenar resultados em memória para não ter que procurá-los novamente. Porém o preço desta escolha é um maior gasto de memória. Com o avanço das tecnologias de hardware, hoje em dia em geral não é um problema gastar alguns megabytes a mais de memória. Porém a economia de memória pode ser uma prioridade caso estejamos desenvolvendo software para dispositivos que têm limitações deste recurso.
+
+2. A escolha entre velocidade e precisão: na escolha de banco de dados para nossas aplicações temos diversas opções de bancos relacionais ou não relacionais. Normalmente para tomar a decisão de qual tecnologia usar, precisamos primeiro entender se para a finalidade específica deste software é mais importante ter velocidade ou precisão absoluta, já que bancos noSQL como o MongoDB alcançam maiores velocidades de busca, porém sacrificando a precisão, o que pode ser um grave problema para bancos de dados sensíveis como os de bancos e outras intituições financeiras. 
